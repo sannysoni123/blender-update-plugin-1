@@ -425,7 +425,7 @@ def register():
     ## Use following custom icon path while run script locally
     # script_path = bpy.context.space_data.text.filepath
     # icons_dir = os.path.join(os.path.dirname(script_path), "icons")
-    custom_icons.load("custom_icon", os.path.join(icons_dir, "swivel-icon.png"), 'IMAGE')
+    custom_icons.load("custom_icon", os.path.join(icons_dir, "bg-2.jpg"), 'IMAGE')
 
 
 def unregister():

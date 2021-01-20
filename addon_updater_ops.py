@@ -1421,7 +1421,7 @@ def register(bl_info):
 	# but the user has the option from user preferences to directly
 	# update to the master branch or any other branches specified using
 	# the "install {branch}/older version" operator.
-	updater.include_branches = False
+	updater.include_branches = True
 
 	# (GitHub only) This options allows the user to use releases over tags for data,
 	# which enables pulling down release logs/notes, as well as specify installs from
